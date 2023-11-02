@@ -21,7 +21,7 @@ class Config:
         for i in config(
             "DEV_USERS",
             default="",
-        ).split("")
+        ).split(" ")
     ]
     SUDO_USERS = [
         int(i)
